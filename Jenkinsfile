@@ -8,7 +8,7 @@ pipeline{
         }
         stage('test'){
             steps{
-                echo 'test'
+                sh 'docker ps'
             }
         }
         stage('deploy'){
