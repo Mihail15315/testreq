@@ -8,9 +8,7 @@ pipeline{
         }
         stage('test'){
             steps{
-                docker{
                     sh 'docker ps'
-                }
             }
         }
         stage('deploy'){
