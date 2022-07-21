@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                bash 'dir'
+                sh 'ls'
             }
         }
         stage('test'){
